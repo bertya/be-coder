@@ -1,0 +1,22 @@
+@import 'stylesheets/mixins/breakpoints';
+
+.header {
+  font-weight: bold;
+  background: green;
+}
+
+.special {
+  text-decoration: underline;
+}
+
+@include breakpoint('large+') {
+  .header {
+    background: yellow;
+  }
+}
+
+@include breakpoint('large+') {
+  .special {
+    color: red;
+  }
+}

@@ -1,0 +1,9 @@
+.footer {
+  font-style: italic;
+}
+
+@media (max-width:1280px) {
+  .footer {
+    color: blue;
+  }  
+}
